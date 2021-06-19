@@ -24,6 +24,6 @@ move to your workspace
 
 `catkin_make`
 
-## how to lauch
+## how to launch
 
 `roslaunch armrobot_moveit demo.launch`
