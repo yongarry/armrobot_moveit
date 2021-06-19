@@ -20,4 +20,10 @@ move to your workspace
 
 `cd ~/catkin_ws/src`
 
-`git clone 
+`git clone https://github.com/yongarry/armrobot_moveit.git`
+
+`catkin_make`
+
+## how to lauch
+
+`roslaunch armrobot_moveit demo.launch`
