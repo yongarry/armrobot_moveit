@@ -1,29 +1,27 @@
 # armrobot_moveit
+Using moveit for motion planning
 
-## Dependency
+## Dependencies
 
-ref link:
+For moveit setup tutorial, click [here](http://docs.ros.org/en/kinetic/api/moveit_tutorials/html/doc/setup_assistant/setup_assistant_tutorial.html). (make sure select the right version of your ros(ex) kinetic,melodic,noetic)
+  
+  You don't need to know just for using.
+  
+For moveit installation guide, click [here](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html).
 
-http://docs.ros.org/en/kinetic/api/moveit_tutorials/html/doc/setup_assistant/setup_assistant_tutorial.html
-
-http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html
-
-`sudo apt-get install ros-melodic-catkin python-catkin-tools`
-
-`sudo apt install ros-melodic-moveit`
+    sudo apt-get install ros-melodic-catkin python-catkin-tools
+    sudo apt install ros-melodic-moveit
 
 if your ros version is kinetic or noetic, change melodic to your installed ros version.
 
-## how to install
+## How to install
 
-move to your workspace
+Move to your workspace
 
-`cd ~/catkin_ws/src`
+    cd ~/catkin_ws/src
+    git clone https://github.com/yongarry/armrobot_moveit.git
+    catkin_make
 
-`git clone https://github.com/yongarry/armrobot_moveit.git`
+## How to launch
 
-`catkin_make`
-
-## how to launch
-
-`roslaunch armrobot_moveit demo.launch`
+    roslaunch armrobot_moveit demo.launch
